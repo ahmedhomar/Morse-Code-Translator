@@ -1,3 +1,3 @@
-// export const multiply = (num1,num2) => {
+// export const translateEnglishToMorse = (englishWord) => {
 //   return num1*num2
 // }
