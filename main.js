@@ -1,6 +1,11 @@
+// @ts-ignore
+// @ts-ignor
+import { translateEnglishToMorse } from "./translator.js";
+
+// @ts-ignore
 const messageInput = document.getElementById("text-input");
+// @ts-ignore
 const messageOutput = document.getElementById("translated-message");
-let message;
 
 // I'm using an object to store English letters and Morse characters as key:value pairs.
 // eslint-disable-next-line no-unused-vars
@@ -34,3 +39,9 @@ const morseCodeObject = {
   " ": "",
   "": " ",
 };
+
+// Event Listener
+
+messageInput.addEventListener("keypress", () => {
+  translateEnglishToMorse();
+});
