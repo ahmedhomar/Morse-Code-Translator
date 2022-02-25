@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Nunito);
-
 * {
   padding: 0px;
   margin: 0px;
@@ -44,7 +43,7 @@ h1 {
   resize: none;
   background-color: white;
   outline: none;
-  border: 2px solid black;
+  border: 5px solid black;
   border-radius: 0;
   font-size: 4em;
   -webkit-box-shadow: none;
